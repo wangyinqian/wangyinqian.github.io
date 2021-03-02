@@ -10,7 +10,7 @@ export class Item extends HTMLElement {
         this.main();
     }
     main(){
-        getJson('http://dev.qdetong.com/desktop/Public/wyq/HTMLDEMO/web_menu/data/data.json').then(data => {
+        getJson('../data/data.json').then(data => {
             const main = document.createElement('div');
 
             const link = document.createElement('link');
