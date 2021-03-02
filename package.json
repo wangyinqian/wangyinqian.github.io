@@ -1,0 +1,51 @@
+{
+  "name": "web_menu",
+  "version": "1.0.0",
+  "description": "web_menu",
+  "main": "client/main.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "^8.2.0",
+    "electron-builder": "^22.4.1"
+  },
+  "build":{
+    "productName":"web_menu", 
+    "appId":"com.web_menu",
+    "copyright":"wyq",
+    "directories":{
+      "output":"bin"
+    },
+    "win":{
+      "icon":"image/favicon.ico",
+      "target":[{"target":"nsis","arch":["x64"]}]
+    },
+    "mac":{"icon":"image/favicon.ico"},  
+    "linux":{"icon":"image/favicon.ico"},
+    "nsis":{
+      "oneClick":false,
+      "allowElevation":true,
+      "allowToChangeInstallationDirectory":true,
+      "installerIcon":"image/favicon.ico",
+      "uninstallerIcon":"image/favicon.ico",
+      "installerHeaderIcon":"image/favicon.ico",
+      "createDesktopShortcut":true,
+      "createStartMenuShortcut":true,
+      "shortcutName":"web_menu",
+      "include":""
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "web_menu"
+  ],
+  "author": "wyq",
+  "license": "ISC"
+}
