@@ -1,0 +1,26 @@
+html,body,div,section,header,footer,main,ul,li,menu-item,h5,p,article{
+    margin:0;
+    padding: 0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu-item{
+    margin:0 auto;
+    padding:0 4.5%;
+}
+.menu-item .category p{display: inline-block;margin-right:5px; padding:5px;}
+.section-cate ul{ display: grid; grid-template-columns:repeat(auto-fill,345px);justify-content: center; }
+.section-cate ul li {margin:6px;padding: 7px;border: 1px solid red;border-radius: 5px;height: 75px;overflow: hidden; }
+.section-cate ul li:last-child{ border:0px; }
+.section-cate ul li a{display: flex;font-family: 微软雅黑; font-size:18px; }
+.section-cate ul li a img{width:75px;height:75px;padding-right: 7px;}
+.section-cate ul li a p{line-height: 175%;font-size: 16px;}
+.menu-item button {padding: 3px 10px;border: 1px solid #eee;border-color: #dedede;background-color: #ffffff;cursor: pointer;}
+@media screen and (max-width:960px){
+    .menu-item section{ padding:2%; }
+}
