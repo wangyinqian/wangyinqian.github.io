@@ -7,9 +7,16 @@ export const Search = {
         document.onkeydown = event=>this.enter(event); 
     },
     click(){
-        const search = document.querySelector('#search');
+        const search = document.querySelector('#search'),
+              value = search.value;
 
-        window.open(`https://kaifa.baidu.com/searchPage?wd=${search.value.trim()}`)
+        window.open(
+            value 
+            ? 
+            `https://kaifa.baidu.com/searchPage?wd=${value.trim()}` 
+            : 
+            "https://kaifa.baidu.com"
+        )
     },
     enter(event){ event.key == "Enter" && this.click(event); }
 }
