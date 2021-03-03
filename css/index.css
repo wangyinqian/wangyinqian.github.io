@@ -39,6 +39,7 @@ header #click-search{
 }
 header #click-search:hover{
     background-color:#7487f2;
+    cursor: pointer;
 }
 header #search:hover,header #search:focus{
     border-color: #5069e6;
