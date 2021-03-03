@@ -37,6 +37,9 @@ header #click-search{
     padding: 0 15px;
     font-size: 16px;
 }
+header #click-search:hover{
+    background-color:#7487f2;
+}
 header #search:focus{
-    border: 0px;
+    border-color: #5069e6;
 }
