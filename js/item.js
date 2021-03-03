@@ -74,7 +74,7 @@ export class Item extends HTMLElement {
     }
     getLiItem({url,src,name,description = ''}){
         return `<a href = '${url}' target = '_blank'>
-                    <img src='${src}'/>
+                    <img src='${src ?? '../image/logo.svg'}'/>
                     <article><h5>${name}</h5><p>${description}</p></article>
                 </a>`
     }
