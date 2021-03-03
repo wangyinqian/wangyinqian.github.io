@@ -47,7 +47,7 @@ export class Item extends HTMLElement {
         //<button>新增</button>
         div.innerHTML = `<p id = 'cate-name'>${title}</p>`;
 
-        div.children[1].onclick = this.addCate.bind(this);
+        //div.children[1].onclick = this.addCate.bind(this);
 
         return div;
     }
@@ -68,7 +68,7 @@ export class Item extends HTMLElement {
 
         ul.id = `item-list-${i}`; ul.innerHTML = listr;
 
-        ul.querySelector(`#add-item-${i}`).onclick = this.addItem.bind(this,i,items);
+        //ul.querySelector(`#add-item-${i}`).onclick = this.addItem.bind(this,i,items);
 
         return ul;
     }
