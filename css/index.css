@@ -27,6 +27,8 @@ header #search{
     border: 2px solid #c4c7ce;
     border-right: 0px;
     outline: none;
+    transition: all 0.3s ease;
+    font-size: 16px;
 }
 header #click-search{
     color: #ffffff;
@@ -36,6 +38,7 @@ header #click-search{
     border: 0;
     padding: 0 15px;
     font-size: 16px;
+    transition: all 0.3s ease;
 }
 header #click-search:hover{
     background-color:#7487f2;
