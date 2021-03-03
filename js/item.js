@@ -44,8 +44,8 @@ export class Item extends HTMLElement {
         const div = document.createElement('div');
 
         div.className = 'category';
-
-        div.innerHTML = `<p id = 'cate-name'>${title}</p><button>新增</button>`;
+        //<button>新增</button>
+        div.innerHTML = `<p id = 'cate-name'>${title}</p>`;
 
         div.children[1].onclick = this.addCate.bind(this);
 
@@ -64,7 +64,7 @@ export class Item extends HTMLElement {
             }
         }
         
-        listr = listr + `<li><button id = 'add-item-${i}'>新增项</button></li>`;
+        //listr = listr + `<li><button id = 'add-item-${i}'>新增项</button></li>`;
 
         ul.id = `item-list-${i}`; ul.innerHTML = listr;
 
