@@ -19,7 +19,7 @@ header{
     background: #ffff;
     box-shadow: 1px 1px 4px 1px rgba(132, 132, 132, 0.76);
 }
-main{ padding-top:88px; }
+main{ padding-top:88px;}
 layer-open{ transition:opacity 0.4s 0.2s ease; opacity:0;}
 .opacity{opacity:1;}
 header #search{
