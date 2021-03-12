@@ -9,6 +9,7 @@ a{
     text-decoration: none;
     color: black; 
 }
+body{ background: #f9f9fa; }
 header{
     display: flex;
     justify-content: center;
@@ -16,6 +17,7 @@ header{
     width: 100%;
     padding: 20px;
     background: #ffff;
+    box-shadow: 1px 1px 4px 1px #cacaca;
 }
 main{ padding-top:79px; }
 layer-open{ transition:opacity 0.4s 0.2s ease; opacity:0;}
