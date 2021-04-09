@@ -7,17 +7,17 @@
     }, {
         "name": "TypeScript",
         "url": "https://www.typescriptlang.org/"
-    },{
+    }, {
         "name": "Dart 中文版",
         "src": "./image/dart.svg",
         "url": "https://dart.cn/",
         "description": "Dart 是一个为全平台构建快速应用的客户端优化的编程语言"
-    },{
+    }, {
         "name": "Dart 英文版",
         "src": "./image/dart.svg",
         "url": "https://dart.dev/",
         "description": "Dart是一个为全平台构建快速应用的客户端优化的编程语言"
-    },{
+    }, {
         "name": "ES6入门教程",
         "url": "https://es6.ruanyifeng.com/"
     }, {
@@ -57,11 +57,21 @@
         "src": "./image/react.svg",
         "url": "https://reactjs.org/",
         "description": "用于构建用户界面的 JavaScript库"
-    },{
+    }, {
         "name": "VUE",
         "src": "https://cn.vuejs.org/images/logo.png",
         "url": "https://cn.vuejs.org/",
         "description": "用于构建用户界面的渐进式Java-Script框架"
+    }, {
+        "name": "VUE3 英文版",
+        "src": "https://v3.vuejs.org/logo.png",
+        "url": "https://v3.vuejs.org/",
+        "description": "用于构建用户界面的渐进式Java-Script框架"
+    }, {
+        "name": "VUE3 中文版",
+        "src": "https://v3.vuejs.org/logo.png",
+        "url": "https://v3.cn.vuejs.org/",
+        "description": "用于构建用户界面的渐进式Java-Script矿建"
     }, {
         "name": "Angular 中文版",
         "src": "https://angular.cn/assets/images/logos/angular/angular.svg",
@@ -72,7 +82,7 @@
         "src": "https://angular.io/assets/images/logos/angular/angular.svg",
         "url": "https://angular.io/",
         "description": "一套框架，多种平台移动端和桌面端"
-    },{
+    }, {
         "name": "Nuxt 中文版",
         "src": "https://zh.nuxtjs.org/logos/nuxt.svg",
         "url": "https://zh.nuxtjs.org/",
@@ -82,22 +92,22 @@
         "src": "https://zh.nuxtjs.org/logos/nuxt.svg",
         "url": "https://nuxtjs.org/",
         "description": "使用NuxtJS充满信心地构建您的下一个 Vue.js 应用程序"
-    },{
+    }, {
         "name": "Flutter 中文版",
         "src": "https://flutter.cn/favicon.ico",
         "url": "https://flutter.cn/",
         "description": "帮助开发者通过一套代码库高效构建移动、Web多平台应用"
-    },{
+    }, {
         "name": "Flutter 英文版",
         "src": "https://pbs.twimg.com/profile_images/1187814172307800064/MhnwJbxw_400x400.jpg",
         "url": "https://flutter.dev/",
         "description": "帮助开发者通过一套代码库高效构建移动、Web多平台应用"
-    },{
+    }, {
         "name": "React Native",
         "src": "https://cdn.jsdelivr.net/gh/reactnativecn/react-native-website@gh-pages/img/header_logo.svg",
         "url": "https://www.react-native.cn/",
         "description": "使用 React 来创建 Android 和 iOS 原生应用框架"
-    },{
+    }, {
         "name": "Electron",
         "url": "https://www.electronjs.org/"
     }, {
@@ -149,7 +159,7 @@
         "name": "Express",
         "url": "http://expressjs.com/en/starter/installing.html",
         "description": "基于 Node.js 平台，快速、开放、极简的 Web 开发框架"
-    },{
+    }, {
         "name": "Jest",
         "url": "https://www.jestjs.cn/",
         "description": "Jest 是一个令人愉快的 JavaScript 测试框架，专注于 简洁明快。"

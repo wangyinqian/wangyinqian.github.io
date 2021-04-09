@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
-import 'search.dart';
-import 'items.dart';
 
 class Home extends StatelessWidget {
-    Widget build(){
-        return Row(
-                children: [],
-              )
+    @override
+    Widget build(BuildContext context){
+        return Text(
+                "Helleo World",
+                textAlign: TextAlign.center,
+                overflow: TextOverflow.ellipsis,
+                style:TextStyle(fontWeight: FontWeight.bold)
+              );
     }
 
 }
