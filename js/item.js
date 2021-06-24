@@ -45,7 +45,7 @@ export class Item extends HTMLElement {
 
         div.className = 'category';
         //<button>新增</button>
-        div.innerHTML = `<p id = 'cate-name'>${title}</p>`;
+        div.innerHTML = `<p id = 'cate-name'><i class="cate-icon" style="margin-right: 7px;"></i>${title}</p>`;
 
         //div.children[1].onclick = this.addCate.bind(this);
 
