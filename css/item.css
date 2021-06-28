@@ -35,6 +35,7 @@ a{
 .section-cate ul li a{display: flex;font-family: 微软雅黑; font-size:18px; }
 .section-cate ul li a img{width:75px;height:75px;padding-right: 7px;}
 .section-cate ul li a p{line-height: 175%;font-size: 16px;}
+.cate-icon{width:30px;transform: rotate(45deg);transform-origin: center 20px;vertical-align: middle;}
 .menu-item button {padding: 3px 10px;border: 1px solid #eee;border-color: #dedede;background-color: #ffffff;cursor: pointer;}
 @media screen and (max-width:960px){
     .menu-item section{ padding:2%; }
